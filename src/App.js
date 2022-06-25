@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Coins from './components/Coins'
 import Coin from './routes/Coin'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Home from './components/Home'
+import Strategies from './components/Strategies'
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -31,7 +32,9 @@ function App() {
           <Route path=':coinId' element={<Coin />} />
         </Route>
         <Route path='/hero' element={<Hero />} />
-        <Route path='/' element={<Home />} />
+        <Route path='/strategies' element={<Strategies />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path="/" element={<Navigate replace to="/hero" />} />
       </Routes>
 
 

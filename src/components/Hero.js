@@ -3,6 +3,7 @@ import axios from 'axios'
 import { Link, useParams } from 'react-router-dom'
 import DOMPurify from 'dompurify'
 import './Hero.css'
+import '../ress/animate.css'
 
 const Hero = () => {
 
@@ -43,60 +44,71 @@ const Hero = () => {
 
                     {/* Right Side */}
                     <div className='right'>
-                        <div className='card'>
-                            <div className='top'>
-                                {<img src={coin.coins[0].item.large} alt='/' />}
-                            </div>
-                            <div>
-                                <h5>{coin.coins[0].item.symbol}</h5>
-                                <p># {coin.coins[0].item.market_cap_rank}</p>
+                        <div className='swing-in-top-fwd'>
+                            <div className='card'>
+                                <div className='top'>
+                                    {<img src={coin.coins[0].item.large} alt='/' />}
+                                </div>
+                                <div>
+                                    <h5>{coin.coins[0].item.symbol}</h5>
+                                    <p># {coin.coins[0].item.market_cap_rank}</p>
+                                </div>
                             </div>
                         </div>
 
-
-                        <div className='card'>
-                            <div className='top'>
-                                {<img src={coin.coins[1].item.large} alt='/' />}
-                            </div>
-                            <div>
-                                <h5>{coin.coins[1].item.symbol}</h5>
-                                <p># {coin.coins[1].item.market_cap_rank}</p>
-                            </div>
-                        </div>
-                        <div className='card'>
-                            <div className='top'>
-                                {<img src={coin.coins[2].item.large} alt='/' />}
-                            </div>
-                            <div>
-                                <h5>{coin.coins[2].item.symbol}</h5>
-                                <p># {coin.coins[2].item.market_cap_rank}</p>
+                        <div className='roll-in-blurred-left3'>
+                            <div className='card'>
+                                <div className='top'>
+                                    {<img src={coin.coins[1].item.large} alt='/' />}
+                                </div>
+                                <div>
+                                    <h5>{coin.coins[1].item.symbol}</h5>
+                                    <p># {coin.coins[1].item.market_cap_rank}</p>
+                                </div>
                             </div>
                         </div>
-                        <div className='card'>
-                            <div className='top'>
-                                {<img src={coin.coins[3].item.large} alt='/' />}
-                            </div>
-                            <div>
-                                <h5>{coin.coins[3].item.symbol}</h5>
-                                <p># {coin.coins[3].item.market_cap_rank}</p>
-                            </div>
-                        </div>
-                        <div className='card'>
-                            <div className='top'>
-                                {<img src={coin.coins[4].item.large} alt='/' />}
-                            </div>
-                            <div>
-                                <h5>{coin.coins[4].item.symbol}</h5>
-                                <p># {coin.coins[4].item.market_cap_rank}</p>
+                        <div className='bounce-in-top'>
+                            <div className='card'>
+                                <div className='top'>
+                                    {<img src={coin.coins[2].item.large} alt='/' />}
+                                </div>
+                                <div>
+                                    <h5>{coin.coins[2].item.symbol}</h5>
+                                    <p># {coin.coins[2].item.market_cap_rank}</p>
+                                </div>
                             </div>
                         </div>
-                        <div className='card'>
-                            <div className='top'>
-                                {<img src={coin.coins[5].item.large} alt='/' />}
+                        <div className='roll-in-blurred-left2'>
+                            <div className='card'>
+                                <div className='top'>
+                                    {<img src={coin.coins[3].item.large} alt='/' />}
+                                </div>
+                                <div>
+                                    <h5>{coin.coins[3].item.symbol}</h5>
+                                    <p># {coin.coins[3].item.market_cap_rank}</p>
+                                </div>
                             </div>
-                            <div>
-                                <h5>{coin.coins[5].item.symbol}</h5>
-                                <p># {coin.coins[5].item.market_cap_rank}</p>
+                        </div>
+                        <div className='swing-in-top-fwd'>
+                            <div className='card'>
+                                <div className='top'>
+                                    {<img src={coin.coins[4].item.large} alt='/' />}
+                                </div>
+                                <div>
+                                    <h5>{coin.coins[4].item.symbol}</h5>
+                                    <p># {coin.coins[4].item.market_cap_rank}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flicker-in-1'>
+                            <div className='card'>
+                                <div className='top'>
+                                    {<img src={coin.coins[5].item.large} alt='/' />}
+                                </div>
+                                <div>
+                                    <h5>{coin.coins[5].item.symbol}</h5>
+                                    <p># {coin.coins[5].item.market_cap_rank}</p>
+                                </div>
                             </div>
                         </div>
                     </div>

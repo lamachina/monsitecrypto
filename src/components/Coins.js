@@ -4,11 +4,12 @@ import Coin from '../routes/Coin'
 import { Link } from 'react-router-dom'
 
 import './Coins.css'
+import '../ress/animate.css'
 
 const Coins = (props) => {
     return (
         <div className='container'>
-            <div>
+            <div className='bounce-in-top'>
                 <div className='heading'>
                     <p>#</p>
                     <p className='coin-name'>Coin</p>

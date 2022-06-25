@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/monsitecrypto/static/css/main.edc2833d.css",
+    "main.js": "/monsitecrypto/static/js/main.6501c62a.js",
+    "static/media/4931029.jpg": "/monsitecrypto/static/media/4931029.6183dad59b531f072b5f.jpg",
+    "index.html": "/monsitecrypto/index.html",
+    "main.edc2833d.css.map": "/monsitecrypto/static/css/main.edc2833d.css.map",
+    "main.6501c62a.js.map": "/monsitecrypto/static/js/main.6501c62a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc2833d.css",
+    "static/js/main.6501c62a.js"
+  ]
+}

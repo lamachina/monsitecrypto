@@ -55,16 +55,18 @@ li:hover {
         flex-direction: column;
         justify-content: start;
         top: 90px;
-        right: -100%;
+        right: -1000px;
+        opacity: 0%;
         width: 50%;
         height: 100vh;
-        transition: 0.4s;
+        transition: 0.5s;
         z-index: 2;
-        background: #fff;
+        background: #ffffffdb;
         border-left: 1px solid rgb(255, 255, 255);
     }
 
     .nav-menu.active {
+        opacity: 100%;
         right: 0;
     }
 

@@ -25,10 +25,10 @@ const Navbar = () => {
                         <Link to='/list'> <p >List</p></Link>
                     </li>
                     <li>
-                        <p >Earn</p>
+                        <Link to='/strategies'> <p >Strategies</p></Link>
                     </li>
                     <li>
-                        <p >Contact</p>
+                        <Link to='/contact'> <p >Contact</p></Link>
                     </li>
                 </ul>
                 <div className='btn-group'>
