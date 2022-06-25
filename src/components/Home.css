@@ -1,0 +1,42 @@
+.signup .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.signup .left {
+    text-align: center;
+}
+
+.bgi {
+    background-image: url('../ress/4931029.jpg');
+    border-radius: 3%;
+    background-repeat: round;
+}
+
+
+
+h2 {
+    padding-top: 5%;
+    text-shadow: 0px 2px 10px var(--fourth);
+}
+
+a:hover {
+    color: var(--secondary);
+    transition: 0.3s ease-in-out;
+}
+
+.signup .right p {
+    margin: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.237);
+    border-radius: 3%;
+    padding: 3%;
+}
+
+@media screen and (max-width:940px) {
+    .signup .container {
+        grid-template-columns: 1fr;
+    }
+}
