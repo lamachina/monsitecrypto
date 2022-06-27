@@ -16,9 +16,8 @@ const Contact = () => {
 
                 {/* Left Side */}
                 <div className='left'>
-                    <h1>Take a look at them</h1> <h1 className='lowh'> With our indicators</h1>
-                    <p>Most searched cryptocurrencies in the last 24 hours.</p>
-                    <p>Receive your access code to our Telegram Channel</p>
+                    <h1>Contact us</h1> <h1 className='lowh'> For trading solution</h1>
+                    <p>Book a reservation with our team</p>
                 </div>
                 {/* Right Side */}
                 <div className='right'>

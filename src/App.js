@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Strategies from './components/Strategies'
 import Contact from "./components/Contact";
+import Dashboard from './components/Dashboard'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/strategies' element={<Strategies />} />
         <Route path='/contact' element={<Contact />} />
         <Route path="/" element={<Navigate replace to="/hero" />} />
+        <Route path='/dashboard' element={<Dashboard />} />
       </Routes>
 
 

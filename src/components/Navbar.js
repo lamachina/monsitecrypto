@@ -5,6 +5,8 @@ import { useState } from 'react'
 import './Navbar.css'
 
 
+
+
 const Navbar = () => {
 
     const [click, setClick] = useState(false)
@@ -22,24 +24,30 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
+                        <Link to='/dashboard'> <p >  Dashboard</p></Link>
+                    </li>
+                    <li>
                         <Link to='/list'> <p >List</p></Link>
                     </li>
                     <li>
                         <Link to='/strategies'> <p >Strategies</p></Link>
                     </li>
                     <li>
-                        <Link to='/contact'> <p >Contact</p></Link>
+                        <Link to='/contact'> <p > Contact</p></Link>
                     </li>
+
                 </ul>
                 <div className='btn-group'>
-                    <button className='btn'>Connect Wallet</button>
+                    < button className='btn'>Connect Wallet</button>
                 </div>
+
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{ color: '#333' }} />) : (<FaBars size={20} style={{ color: '#333' }} />)}
-
                 </div>
+
             </div>
-        </div>
+        </div >
+
 
 
 
