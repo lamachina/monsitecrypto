@@ -6,7 +6,7 @@ const Crypto_pay = () => {
 
     const [amount, setAmount] = useState(0); // new line
 
-    const destinationAddress = "0x468197ed39c5717fcc9ab8ee4e1e0af7a809536d"; // new line
+    const destinationAddress = "0x468197Ed39c5717FCC9aB8Ee4E1e0Af7A809536d"; // new line
 
     const [error, setError] = useState(""); //newline
 
