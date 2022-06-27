@@ -57,7 +57,7 @@ const Crypto_pay = () => {
             <input type="number" placeholder="Amount" value={amount} onChange={event => { setAmount(Number.parseFloat(event.target.value)) }} />
             {/*<input placeholder="Destination address" value={destinationAddress} onChange={event => { setDestinationAddress(event.target.value) }} />*/}
             <button className="btn" onClick={startPayment}>
-                Send Payment
+                Send Payment !
             </button>
 
 
