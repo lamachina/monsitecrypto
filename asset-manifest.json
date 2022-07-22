@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/monsitecrypto/static/css/main.2c58680c.css",
-    "main.js": "/monsitecrypto/static/js/main.71672a8d.js",
+    "main.css": "/monsitecrypto/static/css/main.f8854398.css",
+    "main.js": "/monsitecrypto/static/js/main.31ba47a1.js",
     "static/media/4931029.jpg": "/monsitecrypto/static/media/4931029.6183dad59b531f072b5f.jpg",
     "index.html": "/monsitecrypto/index.html",
-    "main.2c58680c.css.map": "/monsitecrypto/static/css/main.2c58680c.css.map",
-    "main.71672a8d.js.map": "/monsitecrypto/static/js/main.71672a8d.js.map"
+    "main.f8854398.css.map": "/monsitecrypto/static/css/main.f8854398.css.map",
+    "main.31ba47a1.js.map": "/monsitecrypto/static/js/main.31ba47a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c58680c.css",
-    "static/js/main.71672a8d.js"
+    "static/css/main.f8854398.css",
+    "static/js/main.31ba47a1.js"
   ]
 }
