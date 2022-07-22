@@ -8,6 +8,8 @@ import Hero from './components/Hero'
 import Strategies from './components/Strategies'
 import Contact from "./components/Contact";
 import Dashboard from './components/Dashboard'
+import Ethscan from './components/Ethscan'
+
 
 function App() {
 
@@ -37,6 +39,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path="/" element={<Navigate replace to="/hero" />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/ethscan' element={<Ethscan />} />
       </Routes>
 
 

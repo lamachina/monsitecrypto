@@ -1,0 +1,42 @@
+.containerT {
+    display: flex;
+    margin: 4rem auto;
+    padding: 1rem;
+    border-radius: 2%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../ress/4931029.jpg');
+}
+
+.title_date {
+    padding: 3%;
+}
+
+.liste_tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border-style: groove;
+    margin: 1%;
+    background-color: #426e893b;
+
+}
+
+.liste_tr:hover {}
+
+.liste_tri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border-style: groove;
+    margin: 1%;
+    background-color: #8942423b;
+
+}
+
+.liste_tri:hover {
+    background-color: #8942423b;
+}

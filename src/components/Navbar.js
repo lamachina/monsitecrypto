@@ -1,16 +1,17 @@
 import React from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './Navbar.css'
 
 
-
-
-const Navbar = () => {
+const Navbar = (props) => {
 
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
+
+
+
 
 
     return (
@@ -35,10 +36,13 @@ const Navbar = () => {
                     <li>
                         <Link to='/contact'> <p > Contact</p></Link>
                     </li>
+                    <li>
+                        <Link to='/ethscan'> <p > Ethscan</p></Link>
+                    </li>
 
                 </ul>
                 <div className='btn-group'>
-                    < button className='btn'>Connect Wallet</button>
+
                 </div>
 
                 <div className='hamburger' onClick={handleClick}>

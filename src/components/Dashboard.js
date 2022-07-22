@@ -62,6 +62,7 @@ function Dashboard() {
 
     return (
         <div className='hero'>
+
             <div className='container'>
 
                 {/* Left Side */}
@@ -88,9 +89,10 @@ function Dashboard() {
 
 
                     </div>
+
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
